@@ -1,4 +1,4 @@
-import s from "../Tablist.module.css"
+import { memo } from "react";
 
 const TabItems = ({ data }) => {
     return (
@@ -8,4 +8,4 @@ const TabItems = ({ data }) => {
     );
 }
 
-export default TabItems;
+export default memo(TabItems);
